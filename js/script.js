@@ -3,18 +3,6 @@
    Loader visible al entrar en cada página + animaciones
 ========================================================== */
 
-// ======== PANTALLA DE CARGA ==========
-/*window.addEventListener("load", () => {
-  const loader = document.getElementById("loader");
-  loader.style.display = "flex";
-  setTimeout(() => {
-    loader.style.opacity = "0";
-    setTimeout(() => {
-      loader.style.display = "none";
-    }, 800);
-  }, 2000); // tiempo visible del loader
-});*/
-
 // ======== ANIMACIONES DE ENTRADA EN SCROLL ==========
 const animatedElements = document.querySelectorAll(".fade-up, .fade-left, .fade-right");
 

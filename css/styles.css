@@ -31,7 +31,7 @@ body {
   justify-content: center;
   padding: 1rem;
   border-bottom: 2px solid var(--accent);
-  position: sticky;      /* O usa fixed si prefieres */
+  position: sticky;
   top: 0;
   left: 0;
   width: 100%;
@@ -243,7 +243,7 @@ footer {
 }
 /* --- Sección de Herramientas y Tecnologías --- */
 .tecnologias {
-  background-color: var(--bg-alt); /* consistente con el resto */
+  background-color: var(--bg-alt);
   color: var(--text-color);
   text-align: center;
   padding: 80px 20px;
@@ -278,7 +278,7 @@ footer {
 
 /* Tarjetas pequeñas estilo turquesa */
 .tech-item {
-  background: var(--card-bg); /* igual a las tarjetas generales */
+  background: var(--card-bg);
   border: 1px solid rgba(0, 198, 177, 0.2);
   border-radius: 14px;
   padding: 25px 10px;
@@ -322,7 +322,6 @@ footer {
   height: 330px;
   object-fit: cover;
   border-radius: 50% / 40%;
-  /* ovalado vertical */
   box-shadow: 0 5px 18px rgba(0,0,0,0.25);
 }
 
@@ -379,14 +378,6 @@ footer {
   flex: 1;
 }
 
-/* Imagen al lado derecho */
-.logros-img {
-  width: 350px;
-  border-radius: 50%; /* Ovalado / circular */
-  object-fit: cover;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
-}
-
 /* Ajuste responsivo */
 @media (max-width: 900px) {
   .logros-section {
@@ -411,7 +402,7 @@ footer {
   background-repeat: no-repeat;
 
   /* Imagen de fondo */
-  background-image: url("C:/UCompensar/proyecto-transformacion/assets/img/formacion.jpg");
+  background-image: url("../assets/img/formacion.jpg");
 
   /* Capa oscura translúcida encima */
   overflow: hidden;
@@ -441,7 +432,7 @@ footer {
   background-repeat: no-repeat;
 
   /* Imagen de fondo */
-  background-image: url("C:/UCompensar/proyecto-transformacion/assets/img/experiencia.jpg");
+  background-image: url("../assets/img/experiencia.jpg");
 
   overflow: hidden;
 }
@@ -511,5 +502,5 @@ footer {
 .competencias-bg .competencias-container,
 .competencias-bg h2 {
   position: relative;
-  z-index: 2; /* aseguro que el contenido quede encima del fondo */
+  z-index: 2;
 }
