@@ -1,6 +1,6 @@
 /* ==========================================================
    SCRIPT PRINCIPAL - Portafolio de Yan Carlos Prieto
-   Loader visible al entrar en cada página + animaciones
+   Loader visible al entrar en cada página, animaciones y popup
 ========================================================== */
 
 // ======== ANIMACIONES DE ENTRADA EN SCROLL ==========
