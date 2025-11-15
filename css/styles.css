@@ -161,22 +161,6 @@ input:focus, textarea:focus {
   border-color: var(--accent);
 }
 
-.btnContctame {
-  background-color: var(--accent);
-  color: var(--bg-color);
-  border: none;
-  padding: 0.8rem 1.2rem;
-  border-radius: 8px;
-  cursor: pointer;
-  font-weight: 600;
-  transition: background-color var(--transition-speed), transform var(--transition-speed);
-}
-
-.btnContctame:hover {
-  background-color: var(--accent-light);
-  transform: scale(1.05);
-}
-
 /* ===== Pie de página ===== */
 footer {
   text-align: center;
@@ -400,11 +384,7 @@ footer {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-
-  /* Imagen de fondo */
   background-image: url("../assets/img/formacion.jpg");
-
-  /* Capa oscura translúcida encima */
   overflow: hidden;
 }
 
@@ -413,12 +393,11 @@ footer {
   position: absolute;
   top: 0; left: 0;
   width: 100%; height: 100%;
-  background: rgba(0, 0, 0, 0.55); /* oscuridad suave */
-  backdrop-filter: blur(3px);      /* efecto cristal helado */
+  background: rgba(0, 0, 0, 0.55);
+  backdrop-filter: blur(3px); 
   z-index: 0;
 }
 
-/* El contenido va arriba del fondo */
 .formacion * {
   position: relative;
   z-index: 1;
@@ -430,8 +409,6 @@ footer {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-
-  /* Imagen de fondo */
   background-image: url("../assets/img/experiencia.jpg");
 
   overflow: hidden;
@@ -442,17 +419,11 @@ footer {
   position: absolute;
   top: 0; left: 0;
   width: 100%; height: 100%;
-  
-  /* Oscurecimiento + transparencia */
   background: rgba(0, 0, 0, 0.55);
-
-  /* Efecto de vidrio esmerilado */
   backdrop-filter: blur(3px);
-  
   z-index: 0;
 }
 
-/* El contenido debe ir encima del fondo */
 .experiencia * {
   position: relative;
   z-index: 1;
@@ -464,13 +435,12 @@ footer {
   position: relative;
 }
 
-/* Capa oscura suave para mejorar la lectura */
 .experiencia-bg::before {
   content: "";
   position: absolute;
   top: 0; left: 0;
   width: 100%; height: 100%;
-  background: rgba(0,0,0,0.45);  /* oscurece ligeramente */
+  background: rgba(0,0,0,0.45);
   border-radius: 20px;
   backdrop-filter: blur(2px);
   z-index: 1;
@@ -478,7 +448,7 @@ footer {
 
 .experiencia-bg .container {
   position: relative;
-  z-index: 2; /* el contenido queda encima de la imagen */
+  z-index: 2;
 }
 .competencias-bg {
   background: url("../assets/img/competencias.jpg") center/cover no-repeat;
@@ -487,7 +457,6 @@ footer {
   position: relative;
 }
 
-/* Capa oscura suave para contraste */
 .competencias-bg::before {
   content: "";
   position: absolute;
